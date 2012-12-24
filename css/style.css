@@ -1,0 +1,280 @@
+
+/** RESETS **/
+
+/* Based upon 'reset.css' in the Yahoo! User Interface Library: http://developer.yahoo.com/yui */
+#anvsoft-photo-flash-maker {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	width:500px;
+	height:430px;
+	}
+	html {background-image:url(../images/bg1.jpg); background-attachment: fixed;  }	
+    a {color:#FFF ;  text-decoration:none}
+	a:hover{text-decoration:underline;}
+
+/** LAYOUT **/
+ 	body {  font-family: 'Source Sans Pro', sans-serif; font-size: 14px; width:100% ; float:left ; margin: 10px auto }
+ 	#header{position:relative; background: url(../images/overlay2.png) repeat ; width:1185px ;margin:auto; height:155px ; float:left ; border-bottom:.1em solid #CCC}
+        
+ 	.menu{;margin-top:-310px;margin-left:280px;position:absolute}	
+ 	#container { width:1185px;display:block ; min-height:875px; float:left; margin:auto ; background:url(../images/overlay.png) repeat ; }
+    #nav{padding-top:80px;padding-bottom:-40px;}
+	#nav a {color:#FFF ; font-size:20px ; text-decoration:none ; padding-left:15px}
+ 	#nav ul li{list-style:none; display:inline; margin-right:0px; font-family: 'Source Sans Pro', sans-serif;}
+	#nav a:hover{text-decoration:underline;}
+ 	
+		
+		.videogallery{float:left ; position:relative; margin-top:50px ; margin-left:20px  ;  background:url(../images/overlay.png) repeat ; width:800px ; height:425px
+		}
+		.videogallery img{border:none; outline:none;}
+		.videogallery p{margin-top:15px}
+		.videogallery pre {float:right ; color:#CCC ; font-size:16px ; margin-right:60px; margin-top:-10px ; width:240px ; font-family:'Source Sans Pro', sans-serif }
+		.voverlay{text-decoration:none}	
+		#login {float:right;width:330px ;height:425px; background:url(../images/overlay.png) repeat-y ; color:#FFF ; margin-top:50px;margin-right:0px; }	
+		#login2 {float:right;width:330px ;height:425px; background:url(../images/overlay.png) repeat-y ; color:#FFF ; margin-top:50px;margin-right:0px; }	
+		
+		#info1{float:left ; background:url(../images/overlay.png) repeat ; margin-left:10px;margin-right:10px; margin-top:30px ; }	
+		#info1 p { width:250x ; color:#FFF ; text-align:center ; line-height:.7cm ;}
+		#info1 img {margin-left:10px; outline:none; border:none;}
+		#all {margin:auto ; width:1200px }
+		#regist_steps{height:52px; width:100%; background-image:url(../images/overlay.png);margin-bottom:5px;}
+		#regist_steps table{margin-left:90px;}
+		#regist_steps p {float:left;
+						clear:both;
+						margin:5px 10px;
+						background-color:#eeeeee;
+						border:1px solid #fff;
+						width:175px;
+						padding:10px;   
+						-moz-border-radius: 5px;
+						-webkit-border-radius: 5px;
+						border-radius: 5px;
+						-moz-box-shadow:0px 0px 3px #aaa;
+						-webkit-box-shadow:0px 0px 3px #aaa;
+						box-shadow:0px 0px 3px #aaa;
+						}	
+		#regist_steps .active{
+			            float:left;
+						clear:both;
+						margin:5px 10px;
+						border:1px solid #fff;
+						width:175px;
+						padding:10px; 
+						background: #09F;
+    background: -moz-linear-gradient(rgba(56,127,181,0.5), rgba(56,127,181,0.7));
+    background: -ms-linear-gradient(rgba(56,127,181,0.5), rgba(56,127,181,0.7));
+    background: -o-linear-gradient(rgba(56,127,181,0.5), rgba(56,127,181,0.7));
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(56,127,181,0.5)), to(rgba(56,127,181,0.7)));
+    background: -webkit-linear-gradient(rgba(56,127,181,0.5), rgba(56,127,181,0.7));
+    background: linear-gradient(rgba(56,127,181,0.5), rgba(56,127,181,0.7));    
+    border-radius: 5px;
+    border: 1px solid #4e3043;
+    box-shadow: inset 0 1px rgba(255,255,255,0.4), 0 2px 1px rgba(0,0,0,0.1);
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+
+    /* Font styles */
+    color: white;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Raleway', 'Lato', Arial, sans-serif;
+			}				
+		#regist_steps a{
+			color:#000;
+			}				
+			
+ 		#footer{position:relative; background: url(../images/overlay2.png) repeat ; width:1185px ; height:40px ; float:left ; border-top:.1em solid #CCC}
+		#footer p {color:#FFF ; margin-left:20px ; word-spacing:.4em}
+		#footer a:hover {text-decoration:underline}
+		#logo {background:url(../images/logo.png) ; width:400px ; height:150px ; position:relative ; margin-top:10px ; }
+		.sign{margin-left:77px;width:20px;text-align:center;padding-top:20px;}
+/* Demo 4 */
+.form-4 h1 ,h4{font-family:'Source Sans Pro', sans-serif }
+.form-4 {
+    /* Size and position */
+    width: 200px;
+   margin-top:-20px;
+    padding: 50px;
+    position: relative;
+
+    /* Font styles */
+    font-family: 'Raleway', 'Lato', Arial, sans-serif;
+    color: white;
+    text-shadow: 0 2px 1px rgba(0,0,0,0.3);
+}
+
+.form-4 h1,h4 {
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.form-4 input[type=text],
+.form-4 input[type=password] {
+    /* Size and position */
+    width: 100%;
+    padding: 8px 4px 8px 10px;
+    margin-bottom: 15px;
+
+    /* Styles */
+   
+    border-color: #333;;
+    background: rgba(1,1,1,0.15);
+    border-radius: 3px;
+    box-shadow: 
+        0 1px 0 rgba(255,255,255,0.2), 
+        inset 0 1px 1px rgba(0,0,0,0.1);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+
+    /* Font styles */
+    font-family: 'Raleway', 'Lato', Arial, sans-serif;
+    color: #fff;
+    font-size: 13px;
+}
+
+/* Placeholder style (from http://stackoverflow.com/questions/2610497/change-an-inputs-html5-placeholder-color-with-css) */
+.form-4 input{color:#ccc}
+.form-4 input::-webkit-input-placeholder {
+    
+    text-shadow: 0 1px 0 rgba(255,255,255,0.15);
+	 font-family:'Source Sans Pro', sans-serif 
+}
+
+.form-4 input:-moz-placeholder {
+    color: #ccc;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.15);
+	 font-family:'Source Sans Pro', sans-serif 
+}
+
+.form-4 input:-ms-input-placeholder {
+    color: #ccc;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.15);
+	 font-family:'Source Sans Pro', sans-serif 
+}
+
+.form-4 input[type=text]:hover,
+.form-4 input[type=password]:hover {
+    border-color: #333;
+}
+
+.form-4 input[type=text]:focus,
+.form-4 input[type=password]:focus,
+.form-4 input[type=submit]:focus {
+    box-shadow: 
+        0 1px 0 rgba(255,255,255,0.2), 
+        inset 0 1px 1px rgba(0,0,0,0.1),
+        0 0 0 3px rgba(255,255,255,0.15);
+    outline: none;
+}
+
+/* Fallback */
+.no-boxshadow .form-4 input[type=text]:focus,
+.no-boxshadow .form-4 input[type=password]:focus {
+    outline: 1px solid white;
+}
+
+.form-4 input[type=submit] {
+    /* Size and position */
+    width: 100%;
+	margin-left:10px;
+    padding: 8px 9px;
+    
+    /* Styles */
+    background: #09F;
+    background: -moz-linear-gradient(rgba(56,127,181,0.5), rgba(56,127,181,0.7));
+    background: -ms-linear-gradient(rgba(56,127,181,0.5), rgba(56,127,181,0.7));
+    background: -o-linear-gradient(rgba(56,127,181,0.5), rgba(56,127,181,0.7));
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(56,127,181,0.5)), to(rgba(56,127,181,0.7)));
+    background: -webkit-linear-gradient(rgba(56,127,181,0.5), rgba(56,127,181,0.7));
+    background: linear-gradient(rgba(56,127,181,0.5), rgba(56,127,181,0.7));    
+    border-radius: 5px;
+    border: 1px solid #4e3043;
+    box-shadow: inset 0 1px rgba(255,255,255,0.4), 0 2px 1px rgba(0,0,0,0.1);
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+
+    /* Font styles */
+    color: white;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Raleway', 'Lato', Arial, sans-serif;
+}
+#registerB{
+	   width: 100%;
+	
+    padding: 8px 9px;
+    
+    /* Styles */
+    background: #09F;
+    background: -moz-linear-gradient(rgba(56,127,181,0.5), rgba(56,127,181,0.7));
+    background: -ms-linear-gradient(rgba(56,127,181,0.5), rgba(56,127,181,0.7));
+    background: -o-linear-gradient(rgba(56,127,181,0.5), rgba(56,127,181,0.7));
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(56,127,181,0.5)), to(rgba(56,127,181,0.7)));
+    background: -webkit-linear-gradient(rgba(56,127,181,0.5), rgba(56,127,181,0.7));
+    background: linear-gradient(rgba(56,127,181,0.5), rgba(56,127,181,0.7));    
+    border-radius: 5px;
+    border: 1px solid #4e3043;
+    box-shadow: inset 0 1px rgba(255,255,255,0.4), 0 2px 1px rgba(0,0,0,0.1);
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+
+    /* Font styles */
+    color: white;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Raleway', 'Lato', Arial, sans-serif;
+	}
+	#registerB:hover {
+    box-shadow: 
+        inset 0 1px rgba(255,255,255,0.2), 
+        inset 0 20px 30px rgba(56,127,181,0.5);
+}
+.form-4 input[type=submit]:hover {
+    box-shadow: 
+        inset 0 1px rgba(255,255,255,0.2), 
+        inset 0 20px 30px rgba(56,127,181,0.5);
+}
+
+/* Fallback */
+.no-boxshadow .form-4 input[type=submit]:hover {
+    background: #594642;
+}
+
+.form-4 label {
+    display: none;
+    padding: 0 0 5px 2px;
+    cursor: pointer;
+}
+
+.form-4 label:hover ~ input {
+    border-color: #333;
+}
+
+.no-placeholder .form-4 label {
+    display: block;
+}
+
+ 	    
+		 
+		 
+		 
